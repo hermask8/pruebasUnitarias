@@ -1,0 +1,24 @@
+{
+  "name": "pruebasunitarias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "validaciones.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermask8/pruebasUnitarias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hermask8/pruebasUnitarias/issues"
+  },
+  "homepage": "https://github.com/hermask8/pruebasUnitarias#readme",
+  "dependencies": {
+    "jest": "^29.3.1",
+    "ve": "^0.1.3"
+  }
+}
