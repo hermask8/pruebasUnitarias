@@ -15,6 +15,17 @@ class Valida{
             return 'No es par'
         }
     }
+
+    isLengthArray(entrada){
+        if(entrada.length==0)
+        {
+            return 'Vacio'
+        }
+        else
+        {
+            return entrada.length
+        }
+    }
 }
 
 module.exports = new Valida();

@@ -16,3 +16,14 @@ test('numero 25 -> No es par',()=>{
 test('numero 2 -> Es par',()=>{
     expect(validaPar.isValidPar(2)).toBe('Es par')
 });
+
+
+test('array ["edwin","pablo"] -> Es par',()=>{
+    expect(validaPar.isLengthArray(["edwin","pablo"])).toBe(2)
+});
+
+
+
+test('array [] -> Es par',()=>{
+    expect(validaPar.isLengthArray([])).toBe(1)
+});
